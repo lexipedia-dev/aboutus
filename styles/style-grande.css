@@ -12,4 +12,24 @@
         list-style: none;
         margin-left: 20px;
     }
+    #bloco-imagens1{
+        margin-top: 10px;
+        border-radius: 10px;
+        padding: 0.4em;
+        display: flex;
+    }
+
+    #blocos{
+        margin-top: 10px;
+        border-radius: 10px;
+        padding: 0.4em;
+        display: flex;
+    }
+
+    #bloco-de-foto{
+        flex-grow: 1;
+        padding: 10px;
+        margin: 10px;
+    }
+  
 }

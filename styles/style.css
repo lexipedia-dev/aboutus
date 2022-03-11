@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300, 400, 500, 600, 700, 800, 900&display=swap');
 *
-
-
 {
     margin: 0;
     padding: 0;
@@ -41,6 +39,10 @@ header .logo{
 header ul li{
     list-style: none;
     padding: 5px 0;
+}
+
+header ul{
+    padding-top: 15px;
 }
 
 header ul li a:hover,
@@ -114,10 +116,9 @@ section img#mountains_front{
 }
 
 .sec{
-    background-color: green;
     position: relative;
     width: 100%;
-    padding: 100px;
+    padding: 30px;
     background: #1c0522;
 }
 
@@ -127,7 +128,26 @@ section img#mountains_front{
     color: #f3f3f3;
 }
 
+.sec h3{
+    text-decoration: underline;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #f3f3f3;
+}
+
 .sec p{
     font-size: 1em;
     color: #f3f3f3;
+}
+
+#bloco-de-foto{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 0.4em;
+    border: #602db1 ridge 6px;
+}
+
+
+.sec div img{
+    max-width: 100%;
 }

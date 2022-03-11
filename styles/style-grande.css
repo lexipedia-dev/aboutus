@@ -34,5 +34,9 @@
         padding: 10px;
         margin: 10px;
     }
+
+    #bloco-de-foto img{
+        max-width: 80%;
+    }
   
 }

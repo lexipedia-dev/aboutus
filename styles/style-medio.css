@@ -18,4 +18,8 @@
         color: #fff;
         border-radius: 20px;
     }
+
+    #bloco-de-foto img{
+        max-width: 80%;
+    }
 }

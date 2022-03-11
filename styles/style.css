@@ -19,7 +19,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 0 20px;
+    padding: 0 3px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +27,7 @@ header{
 }
 
 header .logo{
+    padding: 15px;
     color: #fff;
     font-weight: 700;
     text-decoration: none;
@@ -39,11 +40,9 @@ header .logo{
 header ul li{
     list-style: none;
     padding: 5px 0;
+    text-align: right;
 }
 
-header ul{
-    padding-top: 15px;
-}
 
 header ul li a:hover,
 header ul li a.active{
@@ -145,6 +144,17 @@ section img#mountains_front{
     border-radius: 10px;
     padding: 0.4em;
     border: #602db1 ridge 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bloco-de-foto img{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: #7597de ridge 6px;
+
 }
 
 

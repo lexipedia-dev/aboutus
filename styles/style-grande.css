@@ -36,6 +36,7 @@
     }
 
     #bloco-de-foto img{
+        border-radius: 50px;
         max-width: 80%;
     }
   

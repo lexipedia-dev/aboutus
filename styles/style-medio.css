@@ -23,6 +23,10 @@
         max-width: 80%;
     }
 
+    #text{
+        font-size: 7.5vw;
+    }
+
     #btn{
         font-size: 1.5em;
     }

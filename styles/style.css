@@ -52,7 +52,7 @@ header ul li a.active{
 }
 header ul li a{
     text-decoration: none;
-    padding: 6px 15px;
+    padding: 6px 12px;
     color: #fff;
     border-radius: 20px;
 }
@@ -99,7 +99,7 @@ section img#mountains_front{
     position: absolute;
     color: #fff;
     white-space: nowrap;
-    font-size: 7.5vw;
+    font-size: 10vw;
     z-index: 9;
 }
 #btn{
@@ -109,8 +109,9 @@ section img#mountains_front{
     border-radius: 40px;
     background: #fff;
     color: #2b1055;
-    font-size: 1.2em;
+    font-size: 1.1em;
     z-index:1000;
+    font-size: 1.2em;
     transform: translateY(100px);
 }
 

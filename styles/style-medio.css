@@ -22,4 +22,8 @@
     #bloco-de-foto img{
         max-width: 80%;
     }
+
+    #btn{
+        font-size: 1.5em;
+    }
 }

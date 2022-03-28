@@ -26,7 +26,7 @@
         <img src="img/moon.png" id="moon">
         <img src="img/mountains_behind.png" id="mountains_behind">
         <h2 id="text">Sobre nós</h2>
-        <a href="#sec" id="btn">Explore</a>
+        <a href="#sec" id="btn">Mergulhar no <br>nosso espaço</a>
         <img src="img/mountains_front.png" id="mountains_front">
     </section>
     <div class="sec" id="sec">
@@ -184,7 +184,6 @@
 
             window.addEventListener('scroll', function () {
                 let value = window.scrollY;
-                //stars.style.left = value * 0.25 + 'px';
                 moon.style.top = value + 'px';
                 mountains_behind.style.top = value * 0.3 + 'px';
                 mountains_front.style.top = value * 0 + 'px';

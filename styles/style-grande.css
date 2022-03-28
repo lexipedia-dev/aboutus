@@ -19,6 +19,10 @@
         padding: 0.4em;
         display: flex;
     }
+    
+    #btn{
+        margin-top: 100px;
+    }
 
     #blocos{
         margin-top: 10px;
